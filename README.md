@@ -16,7 +16,7 @@ This system demonstrates the practical application of Artificial Intelligence in
 ---
 
 # 🏗 System Architecture
-
+```
 User Input
 ↓
 Text Cleaning (NLP)
@@ -34,7 +34,7 @@ Feature Extraction
 Confidence Score
 ↓
 Visualization Dashboard
-
+```
 ---
 
 # 🤖 Where AI is Implemented
@@ -59,6 +59,7 @@ This qualifies the project as an **AI-based system**, not just basic ML.
 ---
 
 # 📂 Project Structure
+```
 FakeNewsAI/
 │
 ├── train_models.py # Trains ML and DL models
@@ -71,7 +72,7 @@ FakeNewsAI/
 ├── vectorizer.pkl # Saved TF-IDF vectorizer
 ├── dl_model.h5 # Saved LSTM deep learning model
 └── tokenizer.pkl # Saved tokenizer
-
+```
 ---
 
 # 🛠 Environment Requirements
@@ -82,14 +83,17 @@ Python 3.10.x (Recommended)
 ⚠ TensorFlow does NOT support Python 3.13/3.14
 
 Check version:
+```
 python --version
-
+```
 OR
+```
 py -3.10 --version
-
+```
 ---
 
 # 📦 Required Libraries
+```
 pandas
 numpy
 scikit-learn
@@ -98,29 +102,34 @@ streamlit
 nltk
 joblib
 matplotlib
+```
 
 Install using:
+```
 py -3.10 -m pip install -r requirements.txt
-
+```
 ---
 
 # 🚀 Steps to Run the Project
 
 ## Step 1️⃣ Clone Repository
+```
 git clone https://github.com/poorvishetty193/Hybrid-AI-Fake-News-Detection-System.git
 cd FakeNewsAI
-
+```
 ---
 
 ## Step 2️⃣ Install Dependencies
+```
 py -3.10 -m pip install --upgrade pip
 py -3.10 -m pip install -r requirements.txt
-
+```
 ---
 
 ## Step 3️⃣ Train Models
+```
 py -3.10 train_models.py
-
+```
 This will:
 - Train Logistic Regression model
 - Train LSTM deep learning model
@@ -129,7 +138,9 @@ This will:
 ---
 
 ## Step 4️⃣ Run Streamlit Dashboard
+```
 py -3.10 -m streamlit run app.py
+```
 
 Open the browser link displayed in terminal.
 
@@ -197,15 +208,9 @@ The Streamlit dashboard provides:
 
 ---
 
-# 🔮 Future Enhancements
+ # 🏗 ScreenShot
 
-- Transformer Model (BERT)
-- Explainable AI (LIME)
-- Attention Mechanism
-- Multilingual Support
-- Real-time API integration
-- Browser Extension Deployment
-- Cloud Deployment
+<img width="1920" height="821" alt="Screenshot (467)" src="https://github.com/user-attachments/assets/834e7da7-f478-4694-a07b-3781575bf93b" />
 
 ---
 
